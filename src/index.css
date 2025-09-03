@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.mwg_effect000 {
+  @apply max-w-screen max-h-screen h-screen flex justify-center items-center bg-zinc-950 overflow-hidden;
+}
+
+.medias {
+  @apply grid grid-cols-4 max-w-4xl gap-8;
+}
+
+.media {
+  @apply rounded-lg;
+}
