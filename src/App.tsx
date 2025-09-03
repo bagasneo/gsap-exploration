@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from 'react';
+import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
@@ -7,11 +7,6 @@ interface MouseTracking {
   oldY: number;
   deltaX: number;
   deltaY: number;
-}
-
-interface UseGSAPOptions {
-  scope?: React.RefObject<HTMLElement>;
-  dependencies?: any[];
 }
 
 gsap.registerPlugin(useGSAP);
