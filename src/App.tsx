@@ -53,8 +53,8 @@ function App() {
 
           // Simple inertia (single phase like original)
           tl.to(image, {
-            x: mouseTracking.current.deltaX * 3, // Much smaller multiplier
-            y: mouseTracking.current.deltaY * 3,
+            x: mouseTracking.current.deltaX * 6, // Much smaller multiplier
+            y: mouseTracking.current.deltaY * 6,
             duration: 0.5,
             ease: 'power2.out',
           }).to(
